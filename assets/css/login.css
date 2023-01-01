@@ -1,0 +1,51 @@
+@font-face {
+    font-family: mtn;
+    src: url("../font/MTNIrancell-Light.ttf");
+}
+body{
+    font-family: mtn;
+}
+.login-container{
+    background-color: rgba(0, 85, 220, 0.4);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    box-shadow: 0 0 5px rgba(0, 85, 220, 0.9);
+}
+.input{
+    text-align: right;
+    all: unset;
+    border-bottom: 1px solid #111;
+    background-color: transparent;
+    color: white;
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+}
+.input::placeholder{
+    color: white;
+    text-align: right;
+}
+.login-btn{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: mtn;
+    width: 25%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.login-btn:hover{
+    background-color: #ddd;
+    transform: translateX(-5px);
+    box-shadow: 0 0 5px #888;
+}
+.err{
+    color: red;
+    font-weight: bold;
+}

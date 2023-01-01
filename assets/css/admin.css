@@ -1,0 +1,78 @@
+@font-face {
+    font-family: mtn;
+    src: url("../font/MTNIrancell-Light.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: mtn;
+    display: flex;
+}
+.right-panel{
+    background-color:  rgba(0, 1, 2, 0.774);
+    padding: 10px;
+    border-radius: 15px 0 0 15px;
+    height: 96.85vh;
+    width: calc(100% / 3);
+}
+.right-panel a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.list-menu{
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.list-menu:hover{
+    background-color: #555;
+}
+.exit{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+.add{
+    padding: 10px;
+}
+.form input{
+    display: block;
+    width: 100%;
+    padding: 9px;
+    margin: 10px;
+    border: 1px solid #777;
+    outline: none;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+}
+.form input:focus{
+    border: 1px solid #da32be;
+}
+.form input::placeholder{
+    font-family: mtn;
+}
+.send-music-btn{
+    background-color: #da32be;
+    color: white;
+    padding: 10px;
+    display: block;
+    font-family: mtn;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #da32be;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.send-music-btn:hover{
+    background-color: white;
+    color: #da32be;
+}
