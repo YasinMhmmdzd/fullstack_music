@@ -2,6 +2,7 @@
 include "db.php";
 ?>
 <!DOCTYPE html>
+<!-- Developed by Yasin Mohammadzade (github.com/yasinmhmmdzd) --!>
 <html lang="fa_IR" dir="rtl">
 
 <head>
